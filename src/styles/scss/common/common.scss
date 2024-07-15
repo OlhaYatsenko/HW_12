@@ -1,0 +1,21 @@
+@use "sass:map";
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: $main-font-family;
+  font-size: 14px;
+}
+
+.container{
+  max-width: map-get($content-widths, 'xl');
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}

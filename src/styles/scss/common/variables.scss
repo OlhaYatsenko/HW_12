@@ -1,0 +1,27 @@
+$main-font-family: 'Open Sans', sans-serif;
+$base-fonts-path: './../../fonts/';
+$base-assets-path: './../../assets/';
+
+$font-sizes: (
+        "xxl": 24px,
+        "xl": 22px,
+        "lg": 18px,
+        "md": 16px,
+        "sm": 14px,
+        "xs": 12px,
+);
+
+$colors: (
+        "main-bg": #FFFFFF,
+        "second-bg": #F5F8FF,
+
+
+        "main-font-color": #000
+);
+
+$content-widths: (
+        'xl': 1200px,
+        'lg': 992px,
+        'md': 767px,
+        'sm': 577px,
+)
